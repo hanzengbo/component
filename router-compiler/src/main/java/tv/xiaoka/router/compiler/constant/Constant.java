@@ -28,4 +28,6 @@ public interface Constant {
     String DOUBEL = LANG + ".Double";
     String BOOLEAN = LANG + ".Boolean";
     String STRING = LANG + ".String";
+
+    String BASECOMPROUTER = "tv.xiaoka.componentlib.router.ui.BaseCompRouter";
 }
