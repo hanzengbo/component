@@ -20,6 +20,5 @@ public interface ISyringe {
      *             with one annotation called Autowired
      */
     void inject(Object self);
-
     void preCondition(Bundle bundle) throws ParamException;
 }

@@ -29,5 +29,6 @@ public enum Type {
 
     STRING,
     PARCELABLE,
-    OBJECT
+    OBJECT,
+    SERIALIZABLE
 }

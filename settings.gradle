@@ -1,1 +1,4 @@
-include ':app', ':router-annotation', ':router-compiler', ':componentlib', ':baselib'
+include ':app', ':router-annotation', ':router-compiler',
+        ':componentlib', ':baselib', ':liveroom'
+
+include ':buildsrc'

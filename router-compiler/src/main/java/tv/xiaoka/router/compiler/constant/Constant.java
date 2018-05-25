@@ -8,6 +8,7 @@ public interface Constant {
     String KEY_HOST_NAME = "host";
     String ANNO_PKG = "tv.xiaoka.router.annotation.annonation";
     String ANNOTATION_TYPE_ROUTE_NODE = ANNO_PKG + ".RouteNode";
+    String ANNOTATION_TYPE_AUTOWIRED = ANNO_PKG + ".Autowired";
 
     String PREFIX_OF_LOGGER = "[Router-Anno-Compiler]-- ";
 
@@ -17,6 +18,7 @@ public interface Constant {
     String FRAGMENT_V4 = "android.support.v4.app.Fragment";
     String SERVICE = "android.app.Service";
     String PARCELABLE = "android.os.Parcelable";
+    String BUNDLE = "android.os.Bundle";
 
     // Java type
     String LANG = "java.lang";
@@ -30,4 +32,10 @@ public interface Constant {
     String STRING = LANG + ".String";
 
     String BASECOMPROUTER = "tv.xiaoka.componentlib.router.ui.BaseCompRouter";
+
+    String ISYRINGE = "tv.xiaoka.componentlib.router.ISyringe";
+
+    String JSON_SERVICE = "tv.xiaoka.componentlib.services.JsonService";
+
+    String PARAM_EXCEPTION_PKG = "tv.xiaoka.componentlib.exceptions";
 }
